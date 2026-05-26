@@ -14,44 +14,46 @@
 </head>
 <body class="antialiased">
 
-    <header class="relative px-6 py-20 md:py-32 flex flex-col items-center text-center border-b border-slate-800">
-        <div class="absolute inset-0 opacity-20" style="background-image: linear-gradient(#334155 1px, transparent 1px), linear-gradient(90deg, #334155 1px, transparent 1px); background-size: 40px 40px;"></div>
+    <header class="relative px-6 py-16 md:py-24 flex flex-col items-center text-center min-h-screen">
+        <div class="absolute inset-0 opacity-20 pointer-events-none" style="background-image: linear-gradient(#334155 1px, transparent 1px), linear-gradient(90deg, #334155 1px, transparent 1px); background-size: 40px 40px;"></div>
         
-        <div class="relative z-10 max-w-5xl mx-auto flex flex-col items-center">
+        <div class="relative z-10 max-w-5xl mx-auto flex flex-col items-center w-full">
             <span class="tech-font text-blue-400 font-bold tracking-widest text-sm md:text-base uppercase mb-4 block">Yuyang Engineering Exclusive Technology</span>
             
-            <h1 class="text-4xl md:text-6xl font-black mb-10 leading-tight text-white">
+            <h1 class="text-4xl md:text-6xl font-black mb-12 leading-tight text-white">
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Ai 忍者：智能動態檢測</span>
             </h1>
             
-            <div class="patent-box p-4 md:p-6 rounded-r-lg text-left inline-block max-w-3xl mb-12 w-full">
-                <p class="text-blue-300 font-bold mb-1 text-sm md:text-base">獨家專利佈局 (審查程序中)</p>
-                <p class="text-slate-300 text-xs md:text-sm leading-relaxed">本系統採用「基於邊緣運算與雲端人工智慧之結構變異即時監測與圖像量化分析系統及其方法」，中華民國智慧財產局專利案號：115120126。</p>
+            <div class="max-w-4xl mx-auto text-left mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">昱揚 Ai 忍者：在難以忍受的環境中默默發掘真相</h2>
+                <p class="text-base md:text-lg text-slate-300 mb-10 leading-relaxed">傳統抓漏靠的是「經驗」與「肉眼」，但水分的蔓延往往無聲無息。昱揚 Ai Ninja 智能動態系統，利用像素運算與先進 AI 視覺大模型帶入工程現場。我們不靠瞎猜，我們只讓數據說出無可辯駁的真相。</p>
+
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-slate-800/80 p-6 rounded-xl border border-slate-700">
+                        <h3 class="text-lg font-bold text-white mb-3 leading-snug"><span class="text-blue-400">1.</span> 永不疲倦的 AI 哨兵：<br><span class="text-base font-normal text-slate-200 mt-1 block">24 小時全方位動態防護</span></h3>
+                        <p class="text-sm text-slate-400 leading-relaxed">漏水往往是瞬間，而滲水卻是慢到肉眼難以分辨。昱揚派忍者進駐艱困區域，提供全天候的高畫質監控。</p>
+                    </div>
+                    <div class="bg-slate-800/80 p-6 rounded-xl border border-slate-700">
+                        <h3 class="text-lg font-bold text-white mb-3 leading-snug"><span class="text-blue-400">2.</span> 動態捕捉：<br><span class="text-base font-normal text-slate-200 mt-1 block">雙軌標記完整記錄</span></h3>
+                        <p class="text-sm text-slate-400 leading-relaxed">每秒24幀偵測動態監測與捕捉10秒錄影，完整復原案發現場。</p>
+                    </div>
+                    <div class="bg-slate-800/80 p-6 rounded-xl border border-slate-700">
+                        <h3 class="text-lg font-bold text-white mb-3 leading-snug"><span class="text-blue-400">3.</span> 像素級鑑識：<br><span class="text-base font-normal text-slate-200 mt-1 block">告別肉眼主觀判斷</span></h3>
+                        <p class="text-sm text-slate-400 leading-relaxed">提取不同時間相片進行像素比對，科學數據判斷深淺變化。</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="w-full max-w-4xl border border-slate-700 rounded-xl overflow-hidden shadow-2xl bg-slate-900/50">
+            <div class="w-full max-w-4xl border border-slate-700 rounded-xl overflow-hidden shadow-2xl bg-slate-900/50 mb-12 mx-auto">
                 <img src="./architecture.png" alt="昱揚 Ai Ninja 前線偵蒐單元架構圖" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity">
+            </div>
+
+            <div class="patent-box p-5 md:p-6 rounded-r-lg text-left inline-block max-w-4xl w-full mx-auto">
+                <p class="text-blue-300 font-bold mb-2 text-sm md:text-base">獨家專利佈局 (審查程序中)</p>
+                <p class="text-slate-300 text-sm md:text-base leading-relaxed">本系統採用「基於邊緣運算與雲端人工智慧之結構變異即時監測與圖像量化分析系統及其方法」，中華民國智慧財產局專利案號：115120126。</p>
             </div>
         </div>
     </header>
-
-    <section class="py-20 px-6 max-w-6xl mx-auto">
-        <h2 class="text-3xl font-bold text-center mb-16 text-white">傳統抓漏的盲區，交給 Ai Ninja 破解</h2>
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-colors">
-                <h3 class="text-xl font-bold mb-3 text-white">24小時數位天眼</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">漏水時間不固定？人會累，但 Ai Ninja 不會。全天候不間斷監控，物理觸手與攝影機第一時間抓拍稍縱即逝的滲漏證據。</p>
-            </div>
-            <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-colors">
-                <h3 class="text-xl font-bold mb-3 text-white">像素級科學辦案</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">不再憑師傅感覺猜測。雲端大腦進行不同時間點的照片「像素級」相減比對，水痕擴大或退縮，由絕對客觀的物理數字說了算。</p>
-            </div>
-            <div class="bg-slate-800 p-8 rounded-xl border border-slate-700 hover:border-blue-500 transition-colors">
-                <h3 class="text-xl font-bold mb-3 text-white">鐵證如山的報告</h3>
-                <p class="text-slate-400 text-sm leading-relaxed">提供本機實體與雲端雙軌備份，確保證據不被竄改。昱揚專注精準檢測，產出最中立的科學報告，成為您釐清責任的最強後盾。</p>
-            </div>
-        </div>
-    </section>
 
 </body>
 </html>
