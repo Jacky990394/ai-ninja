@@ -14,16 +14,20 @@
 </head>
 <body class="antialiased">
 
+    <!-- 主視覺與內容展示區 -->
     <header class="relative px-6 py-16 md:py-24 flex flex-col items-center text-center min-h-screen">
+        <!-- 科技感背景網格 -->
         <div class="absolute inset-0 opacity-20 pointer-events-none" style="background-image: linear-gradient(#334155 1px, transparent 1px), linear-gradient(90deg, #334155 1px, transparent 1px); background-size: 40px 40px;"></div>
         
         <div class="relative z-10 max-w-5xl mx-auto flex flex-col items-center w-full">
             <span class="tech-font text-blue-400 font-bold tracking-widest text-sm md:text-base uppercase mb-4 block">Yuyang Engineering Exclusive Technology</span>
             
+            <!-- 1. 標題 -->
             <h1 class="text-4xl md:text-6xl font-black mb-12 leading-tight text-white">
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Ai 忍者：智能動態檢測</span>
             </h1>
             
+            <!-- 2. 核心文案與三大特點 -->
             <div class="max-w-4xl mx-auto text-left mb-12 w-full">
                 <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">昱揚 Ai 忍者：在難以忍受的環境中默默發掘真相</h2>
                 <p class="text-base md:text-lg text-slate-300 mb-10 leading-relaxed">傳統抓漏靠的是「經驗」與「肉眼」，但水分的蔓延往往無聲無息。昱揚 Ai Ninja 智能動態系統，利用像素運算與先進 AI 視覺大模型帶入工程現場。我們不靠瞎猜，我們只讓數據說出無可辯駁的真相。</p>
@@ -44,38 +48,45 @@
                 </div>
             </div>
 
+            <!-- 3. 動態影片實錄展示區 (.mov 版本) -->
             <div class="w-full max-w-4xl mx-auto mb-16 px-2 md:px-0">
                 <div class="text-center mb-8">
                     <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">Ai 忍者前線實錄：精準捕捉瞬間滴水</h2>
-                    <p class="text-slate-400 text-sm md:text-base max-w-2xl mx-auto">這就是系統在黑暗中默默守護的成果。無聲無息的間歇性漏水，也逃不過 24 小時動態天眼的捕捉。</p>
+                    <p class="text-slate-400 text-sm md:text-base max-w-2xl mx-auto">忍者在黑暗中默默守護的成果。無聲無息的間歇性漏水，也逃不過 24 小時動態天眼的捕捉。</p>
                 </div>
                 
                 <div class="relative bg-slate-900 rounded-xl p-2 border border-slate-700 shadow-2xl">
                     <video autoplay loop muted playsinline class="w-full h-auto rounded-lg border border-slate-800">
-                        <source src="./ALERT_200132.mp4" type="video/mp4">
+                        <source src="./ALERT_200132.mov" type="video/mp4">
                         您的瀏覽器不支援影片播放，請確認網路狀態。
                     </video>
                 </div>
             </div>
 
+            <!-- 4. 架構照片 -->
             <div class="w-full max-w-4xl border border-slate-700 rounded-xl overflow-hidden shadow-2xl bg-slate-900/50 mb-12 mx-auto">
                 <img src="./architecture.png" alt="昱揚 Ai Ninja 前線偵蒐單元架構圖" class="w-full h-auto object-cover opacity-90 hover:opacity-100 transition-opacity">
             </div>
 
+            <!-- 5. 專利背書 -->
             <div class="patent-box p-5 md:p-6 rounded-r-lg text-left inline-block max-w-4xl w-full mx-auto mb-16">
                 <p class="text-blue-300 font-bold mb-2 text-sm md:text-base">獨家專利佈局 (審查程序中)</p>
                 <p class="text-slate-300 text-sm md:text-base leading-relaxed">本系統採用「基於邊緣運算與雲端人工智慧之結構變異即時監測與圖像量化分析系統及其方法」，中華民國智慧財產局專利案號：115120126。</p>
             </div>
 
+            <!-- 6. 實際產出報告展示區 (帶發光效果) -->
             <div class="w-full max-w-4xl mx-auto mb-10 px-2 md:px-0">
                 <div class="text-center mb-10">
                     <h2 class="text-2xl md:text-3xl font-bold text-white mb-4">實際產出：數位鐵證鑑識報告</h2>
-                    <p class="text-slate-400 text-sm md:text-base max-w-2xl mx-auto">科學鑑識結果。沒有模糊地帶，只有像素級的精準數據與生活邏輯的交叉比對。</p>
+                    <p class="text-slate-400 text-sm md:text-base max-w-2xl mx-auto">這就是您將獲得的科學鑑識結果。沒有模糊地帶，只有像素級的精準數據與作息邏輯的交叉比對。</p>
                 </div>
                 
+                <!-- 報告圖片容器 -->
                 <div class="relative group mx-auto">
+                    <!-- 隱形的發光背板 -->
                     <div class="absolute -inset-1 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
                     
+                    <!-- 實體報告照片 -->
                     <div class="relative bg-slate-900 rounded-xl p-2 border border-slate-700 shadow-2xl">
                         <img src="./report.jpg" alt="Ai Ninja 昱揚比對報告實績" class="w-full h-auto rounded-lg">
                     </div>
